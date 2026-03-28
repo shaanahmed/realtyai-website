@@ -1,0 +1,822 @@
+REALTYAI WEBSITE, SUPPORT, AND PRODUCT MASTER COPY
+Updated: March 28, 2026
+
+==================================================
+1. ZERO-COST WEBSITE AND SUPPORT SETUP
+==================================================
+
+1. The Website: Google Sites (Free + Custom Domain)
+
+Since you do not have a web app yet, you only need a static website that explains the product, builds trust, and gives customers a place to read support information.
+
+Recommended tool: Google Sites
+
+Why Google Sites is the best $0 option:
+- It is free.
+- It works well on mobile.
+- It is simple drag-and-drop.
+- You can connect your custom Namecheap domain for free.
+- It does not look cluttered with builder branding like some other free tools.
+- It is enough for a desktop app landing page, support page, privacy page, and help center links.
+
+What the website should include:
+- Home page / landing page
+- Features page
+- How It Works page
+- How to Use RealtyAI page
+- Security & Privacy page
+- Contact / Support page
+- Download or Buy page
+- Help / Manuals page
+
+How to connect it:
+1. Go to sites.google.com.
+2. Build the website pages.
+3. Open Settings in Google Sites.
+4. Go to Custom Domains.
+5. Enter realtyaihq.com.
+6. Google will give you a CNAME record and a TXT record.
+7. Open Namecheap Advanced DNS.
+8. Add those records there.
+9. Wait for the domain to verify and propagate.
+
+Suggested public website structure:
+- Home: what RealtyAI is, who it is for, and the main value.
+- Features: listing copy, market analysis, negotiation prep, contract risk scan, portfolio workflow, PDF export.
+- How to Use RealtyAI: a simple first-run guide and page-by-page workflow.
+- Security & Privacy: explain local-first design and what data stays on the user machine.
+- Help: basic setup, how to use each page, common questions.
+- Contact: support@realtyaihq.com and expected response time.
+- Buy / Download: pricing, system requirements, and install instructions.
+
+
+1A. App Updates Hosting: GitHub Releases (Free)
+
+Recommended tool: GitHub Releases in a separate public repo used only for release assets.
+
+Why this is the best fit:
+- It is free.
+- It gives the app one stable internet location for update files.
+- It does not require a separate server.
+- It keeps your source code private if you use a separate public updates repo.
+- It works well with the RealtyAI desktop updater flow.
+
+Best setup:
+- Website and support pages live on realtyaihq.com.
+- Desktop update files live in a separate public GitHub repo such as realtyai-updates.
+- The RealtyAI app checks GitHub Releases for latest.json and installer assets.
+
+What the app needs online:
+- latest.json
+- the Windows installer .exe
+- the installer signature .sig
+
+Important separation:
+- Your website is for trust, product information, support, and help content.
+- Your GitHub Releases repo is only for app update delivery.
+- Do not put your app source code in the public updates repo.
+
+
+2. The Support System: Zoho Desk (Free Tier)
+
+Recommended tool: Zoho Desk free tier
+
+Why it fits RealtyAI:
+- You already use Zoho Mail.
+- Support emails can become tickets automatically.
+- You can answer all support messages from one dashboard.
+- You can build a searchable knowledge base instead of manually replying to the same question every time.
+- It looks more professional than only using email.
+
+Best use of Zoho Desk:
+- Turn support@realtyaihq.com into your main support address.
+- Connect that email to Zoho Desk.
+- Every incoming support email becomes a ticket.
+- Create knowledge base articles for setup, licensing, local AI, updates, and troubleshooting.
+
+What to include in Zoho Desk Knowledge Base:
+- Installation guide
+- First-time setup guide
+- How to activate license
+- How to add API keys
+- How to use local AI with Ollama
+- How to generate listing copy
+- How to use AI Studio tools
+- How to export PDFs
+- How to restore deleted listings
+- How updates work
+- Troubleshooting and common errors
+
+
+3. Your Checklist to Zero-Cost Launch
+
+Task: Email
+Tool: Zoho Mail
+Cost: $0
+Status: Done
+
+Task: Landing Page
+Tool: Google Sites
+Cost: $0
+
+Task: Desktop Updates Hosting
+Tool: GitHub Releases
+Cost: $0
+
+Task: FAQ / Manuals / Help Center
+Tool: Zoho Desk Knowledge Base
+Cost: $0
+
+Task: Microsoft Store Developer Account
+Tool: Microsoft Partner Center
+Cost: around $19 one-time
+
+Important note about Microsoft Store:
+If you want to sell through the official Microsoft Store, the Microsoft Individual Developer account has a one-time registration fee. There is no reliable way to bypass that fee if you want official Store distribution.
+
+
+==================================================
+2. WHAT REALTYAI IS
+==================================================
+
+RealtyAI is a local-first desktop app for real estate professionals. It helps agents and small real estate teams create listing content, analyze market activity, prepare negotiations, review contract language, manage listing records, and export polished PDFs from one desktop workspace.
+
+It is designed for people who want speed, privacy, simplicity, and practical business help instead of another bloated CRM or web subscription.
+
+Short brand description:
+RealtyAI is a private, desktop-based real estate productivity app that helps agents create better listing materials, understand the market faster, and make smarter deal decisions without depending on a heavy web platform.
+
+Short one-line positioning:
+RealtyAI helps real estate agents turn listing data into faster marketing, clearer decisions, and more professional client output from one local desktop app.
+
+Simple elevator pitch:
+RealtyAI is the assistant a solo agent or small team wishes they had every day. It helps write listing copy, organize listings, review market data, support negotiation prep, flag risky contract wording, and keep work moving fast without forcing the user into a complicated enterprise system.
+
+
+==================================================
+3. WHO THE APP IS FOR
+==================================================
+
+Best-fit users:
+- Solo real estate agents
+- Small broker teams
+- Real estate assistants who prepare marketing material
+- Agents who want faster listing prep without hiring more staff
+- Professionals who care about privacy and local control
+- Agents who are not highly technical but still want AI assistance
+
+The ideal buyer:
+The strongest first customer is a solo agent or a small real estate team that does not want another expensive monthly software stack but still needs professional output, faster workflows, and clearer business decisions.
+
+Who it is not primarily for:
+- Large enterprise brokerages needing full CRM automation across many departments
+- Teams looking for a cloud-first all-in-one enterprise back office
+- Users who only want a mobile-first app and never work on a desktop or laptop
+
+
+==================================================
+4. THE MAIN PROBLEM REALTYAI SOLVES
+==================================================
+
+Real estate agents lose time and money in repeated manual work:
+- Writing listing descriptions from scratch
+- Cleaning and reviewing market or comps data
+- Preparing negotiation talking points under pressure
+- Reading contract sections and missing risky wording
+- Searching across past listings and files
+- Exporting professional materials manually
+- Switching between too many disconnected tools
+
+RealtyAI brings those tasks into one desktop workflow.
+
+The main business result:
+It reduces admin friction so the user can move faster, present better, and spend more time on selling, client communication, and closing deals.
+
+
+==================================================
+5. WHAT THE APP DOES
+==================================================
+
+Core app capabilities:
+
+1. Listing Generator
+- User enters the property basics once.
+- RealtyAI generates ready-to-use marketing copy.
+- The copy can be refined with extra notes and local details.
+- This helps the agent go from blank page to publish-ready draft much faster.
+
+2. Dashboard
+- Shows saved listings in one place.
+- Lets the user search, filter, edit, restore, delete, and export listings.
+- Tracks listing history and recent changes.
+- Helps the user stay organized without digging through scattered files.
+
+3. AI Studio
+- Shows market snapshot information in a simpler decision-oriented view.
+- Supports batch listing generation for multiple properties.
+- Provides negotiation prep assistance.
+- Flags risky contract language for review.
+- Gives the user a more advanced workspace without forcing them into a messy, confusing experience.
+
+4. Portfolio Management
+- Lets the user review groups of listings together.
+- Supports filtering by city and portfolio views.
+- Helps the user compare values, trends, and bulk changes.
+- Useful for agents managing many listings or repeating workflow across areas.
+
+5. PDF Export
+- Turns listing information into professional PDF output.
+- Useful for client presentations, internal review, and branded materials.
+
+6. Settings and AI Setup
+- Lets the user add API keys for supported AI providers.
+- Gives guidance on local AI setup.
+- Helps the user choose between local AI and cloud AI.
+- Includes update and maintenance actions in the desktop app.
+
+7. License and Access Control
+- Supports licensing flow for paid distribution.
+- Gives a path for desktop commercial sales.
+
+
+==================================================
+6. HOW USERS SHOULD THINK ABOUT THE APP
+==================================================
+
+RealtyAI is not just a writing tool.
+It is a decision-support and workflow-speed tool for real estate professionals.
+
+Users should think of it as:
+- their listing copy assistant
+- their daily real estate operations helper
+- their quick market snapshot tool
+- their negotiation prep partner
+- their contract review helper
+- their organized desktop workspace for listing records
+
+It is meant to save time on repeated work, reduce mental overload, and help the user act faster with more confidence.
+
+
+==================================================
+7. HOW TO USE THE APP
+==================================================
+
+Recommended basic workflow for a new user:
+
+Step 1: Install the app on Windows.
+
+Step 2: Open Settings.
+- Add API key if using cloud AI.
+- Or set up local AI if preferred.
+- Check model recommendation.
+- Activate the license if required.
+
+Step 3: Start with Listing Generator.
+- Enter address, price, beds, baths, square feet, and extra notes.
+- Generate listing copy.
+- Review and personalize one local detail before publishing.
+
+Step 4: Use Dashboard.
+- Save listings.
+- Search and filter them later.
+- Edit details when needed.
+- Export polished PDFs.
+
+Step 5: Use AI Studio for advanced help.
+- Review market snapshot.
+- Run batch listing generation.
+- Use negotiation prep before client or buyer conversations.
+- Paste contract text to flag areas that may need closer attention.
+
+Step 6: Use Portfolio view when managing many listings.
+- Compare activity across listings.
+- Apply smarter bulk review and management.
+
+Best practice for non-technical users:
+- Start with one listing.
+- Learn the basic generate, review, save, export flow first.
+- Move to AI Studio only after getting comfortable.
+
+
+==================================================
+8. WHAT USERS SHOULD KEEP IN MIND
+==================================================
+
+Important expectations and user guidance:
+
+1. This is a desktop app, not a web app.
+- It is meant to run locally on the user's computer.
+
+2. Some features may depend on AI configuration.
+- Cloud AI features need a valid supported API key.
+- Local AI features may need Ollama and enough system memory.
+
+3. Users should always review AI output before publishing.
+- Listing copy should be checked for accuracy.
+- Negotiation suggestions should be reviewed with human judgment.
+- Contract screening is a support tool, not legal advice.
+
+4. Good input improves output.
+- Better property details produce better listing copy.
+- Better market context produces stronger negotiation guidance.
+
+5. Internet may still be required for some tasks.
+- Cloud AI needs internet.
+- License activation may need internet.
+- Update checks need internet.
+- App update downloads can be hosted through GitHub Releases.
+
+6. Privacy and security still matter.
+- Users should protect their machine.
+- Users should keep their license and API keys private.
+
+
+==================================================
+9. ADDITIONAL FEATURES WORTH HIGHLIGHTING
+==================================================
+
+Extra value points to mention on the website:
+- Local-first workflow
+- Desktop app experience instead of another browser tab
+- Faster day-to-day listing preparation
+- Searchable listing history
+- Batch workflow support
+- Negotiation prep support
+- Contract risk highlighting support
+- PDF export for polished sharing
+- Multiple AI provider support
+- Local AI path for privacy-focused users
+- Simpler workflow for small teams
+- One place for creating, reviewing, and managing listing content
+
+
+==================================================
+10. HOW REALTYAI SAVES TIME
+==================================================
+
+RealtyAI saves time by reducing repeated manual work.
+
+Examples of time savings:
+- Instead of writing each listing description from scratch, the user starts with a generated draft.
+- Instead of jumping between notes, spreadsheets, and prompts, the user works inside one desktop app.
+- Instead of manually organizing listing records and exports, the Dashboard centralizes them.
+- Instead of preparing negotiation talking points from memory, the user can generate a structured starting point.
+- Instead of reading long contract text with no support, the user can quickly highlight clauses that deserve attention.
+- Instead of handling one listing at a time, the user can use batch workflows where relevant.
+
+Good website phrase:
+RealtyAI helps agents turn hours of scattered admin work into a faster, repeatable workflow.
+
+
+==================================================
+11. HOW REALTYAI SAVES MONEY
+==================================================
+
+RealtyAI can save money by reducing dependence on multiple separate tools and reducing time lost to admin work.
+
+Examples:
+- Fewer hours spent on repetitive writing and prep work.
+- Less need to pay for several separate tools for writing, analysis, organization, and export.
+- Better consistency in client-facing materials.
+- Faster turnaround can help users respond to opportunities sooner.
+- A solo agent can operate with more leverage before needing more staff support.
+
+Good website phrase:
+RealtyAI helps smaller real estate businesses get more output without immediately adding more software subscriptions or admin overhead.
+
+
+==================================================
+12. WHAT MAKES REALTYAI DIFFERENT
+==================================================
+
+RealtyAI is different because it is built around the needs of a solo agent or a small real estate team, not a big enterprise workflow.
+
+Key differentiators:
+
+1. Local-first desktop design
+- Many competitors push users into cloud-only workflows.
+- RealtyAI is designed to keep work close to the user on their own machine.
+
+2. Multiple job types in one app
+- It is not only a listing writer.
+- It combines listing generation, market snapshot review, portfolio workflow, negotiation help, contract risk support, and export flow.
+
+3. Simpler than large CRM ecosystems
+- Many platforms are too heavy, too expensive, or too confusing for solo agents.
+- RealtyAI focuses on practical work that helps users move faster.
+
+4. Better privacy story than generic AI copy tools
+- Users can choose local AI or supported cloud AI.
+- The product is positioned around privacy, control, and local ownership of work.
+
+5. Designed for execution, not hype
+- The app is focused on outcomes: write faster, analyze faster, decide faster, present better.
+
+6. One-time purchase positioning is possible
+- This is attractive for users tired of endless monthly subscriptions.
+
+
+==================================================
+13. HOW REALTYAI IS DIFFERENT FROM COMPETITORS
+==================================================
+
+Competitor categories:
+
+1. Generic AI tools like ChatGPT + Canva
+- Those tools are flexible, but the user has to build the workflow themselves.
+- RealtyAI gives a structured real-estate-specific workflow instead of forcing the user to prompt from scratch every time.
+
+2. CMA / presentation tools
+- Many tools focus mostly on presentation output.
+- RealtyAI goes further by helping with listing copy, internal workflow, negotiation prep, and contract support.
+
+3. Large CRM ecosystems
+- Platforms like major real estate CRMs can be powerful but expensive, broad, and heavy.
+- RealtyAI is more focused, easier to understand, and more realistic for solo agents and small teams.
+
+4. Cloud-only AI services
+- Many tools require constant internet and store user activity in the cloud.
+- RealtyAI can be positioned as a more private and more controlled alternative.
+
+
+==================================================
+14. WHY SOMEONE WOULD CHOOSE REALTYAI
+==================================================
+
+Customers would choose RealtyAI if they want:
+- a practical desktop tool instead of another bloated web platform
+- faster listing prep
+- clearer organization of listing work
+- real estate specific AI help instead of generic prompts
+- a privacy-friendly workflow
+- help with both marketing and decision support
+- a simpler system for a solo or small-team business
+- the option to avoid stacking many extra subscriptions
+
+Strong buyer message:
+Choose RealtyAI if you want a real estate work assistant that helps you move faster, stay organized, and make smarter decisions without adding complexity to your day.
+
+
+==================================================
+15. WEBSITE COPY YOU CAN REUSE
+==================================================
+
+Homepage headline options:
+- The Real Estate Desktop App That Helps You Work Faster and Smarter
+- Create Listings, Review the Market, and Move Deals Forward From One Desktop App
+- Less Admin. Better Listing Output. Smarter Real Estate Decisions.
+
+Homepage subheadline options:
+- RealtyAI helps agents and small teams create listing copy, manage listings, review market activity, prepare negotiations, and export polished materials from one private desktop workspace.
+- Built for real estate professionals who want speed, clarity, and control without another expensive all-in-one web platform.
+
+Short feature block copy:
+- Generate listing copy in minutes.
+- Keep every listing organized in one dashboard.
+- Review market snapshots without spreadsheet overload.
+- Prepare negotiations with clearer talking points.
+- Screen contract language faster.
+- Export polished PDFs for client-ready materials.
+
+Call-to-action ideas:
+- Buy RealtyAI
+- Download the Windows App
+- See How RealtyAI Works
+- Contact Support
+
+
+==================================================
+16. FEATURES PAGE COPY YOU CAN REUSE
+==================================================
+
+Feature: Listing Generator
+Description: Turn property details into fast, professional listing copy that you can review, personalize, and publish.
+
+Feature: Dashboard
+Description: Search, edit, organize, restore, export, and manage listings from one clean control center.
+
+Feature: AI Studio
+Description: Use advanced tools for market snapshot review, batch listing generation, negotiation prep, and contract screening without a confusing workflow.
+
+Feature: Portfolio View
+Description: Review groups of listings, compare trends, and manage properties more efficiently.
+
+Feature: PDF Export
+Description: Generate polished listing documents that are easier to share with clients and stakeholders.
+
+Feature: Flexible AI Setup
+Description: Use supported cloud AI providers or set up a local AI workflow, depending on your privacy and performance needs.
+
+
+==================================================
+17. SECURITY AND PRIVACY PAGE COPY YOU CAN REUSE
+==================================================
+
+Security & Privacy overview:
+RealtyAI is designed as a local-first desktop application. The goal is to keep day-to-day listing work closer to the user's own machine instead of forcing everything through a browser-based platform.
+
+Key points to include:
+- RealtyAI is a desktop app installed on the user's Windows machine.
+- Listing workflow and saved records are handled locally in the desktop environment.
+- API keys are stored in encrypted form.
+- Users can choose cloud AI providers or local AI depending on their setup.
+- Cloud-provider features only send data to the provider selected by the user.
+- RealtyAI is designed to reduce unnecessary data exposure compared with always-online workflows.
+- Users remain responsible for reviewing outputs before use and for protecting access to their own computer.
+
+Important caution line:
+RealtyAI assists with workflow, analysis, and drafting. It does not replace professional legal, compliance, or brokerage review where required.
+
+
+==================================================
+18. SUPPORT PAGE COPY YOU CAN REUSE
+==================================================
+
+Support headline:
+Need Help With RealtyAI?
+
+Support subtext:
+We help with installation, setup, licensing, AI configuration, updates, and workflow questions.
+
+Support contact:
+Email: support@realtyaihq.com
+
+Suggested support response promise:
+We aim to respond to support requests within 1 business day.
+
+Support topics to list:
+- Installation issues
+- License activation help
+- API key setup help
+- Local AI / Ollama setup help
+- Update questions
+- Export or PDF issues
+- Listing generation questions
+- AI Studio guidance
+
+
+18A. HOW TO USE REALTYAI PAGE COPY YOU CAN REUSE
+
+Page headline:
+How to Use RealtyAI
+
+Page subheadline:
+Follow this simple desktop workflow to set up RealtyAI, generate your first listing, and move into more advanced tools only when you are ready.
+
+Intro paragraph:
+RealtyAI is designed to be easy to start and powerful as you grow into it. The best way to use the app is to begin with setup, generate one listing, save it, export it, and then move into advanced tools like AI Studio and Portfolio only after the core workflow feels comfortable.
+
+Recommended first-time workflow:
+
+Step 1: Install and open RealtyAI.
+- Launch the Windows desktop app.
+- Wait for the app to finish starting before using tools.
+
+Step 2: Open Settings first.
+- Add a supported cloud AI API key, or set up local AI.
+- Check the recommended model.
+- Confirm your access or license status.
+- If you are online, check whether an app update is available.
+
+Step 3: Generate your first listing.
+- Open Listing Generator.
+- Enter property basics such as address, price, bedrooms, bathrooms, square feet, and any important notes.
+- Generate a draft.
+- Review the output and correct anything that must be more specific or more local.
+
+Step 4: Save and manage the listing.
+- Open Dashboard.
+- Confirm the listing is saved.
+- Search, filter, edit, restore, delete, or export from one place.
+- Use this page as your day-to-day control center.
+
+Step 5: Export a polished PDF.
+- Once the listing looks right, export a professional PDF.
+- Use it for internal review, client sharing, or presentation material.
+
+Step 6: Use AI Studio when you need deeper help.
+- Review market snapshot data.
+- Run batch listing generation.
+- Prepare negotiation talking points.
+- Paste contract language for risk highlighting.
+- Use AI Studio after the main listing workflow already feels familiar.
+
+Step 7: Use Portfolio when managing many listings.
+- Compare listings together.
+- Review grouped activity.
+- Use filters to organize work by area, city, or workflow need.
+
+Simple page-by-page explanation:
+
+Listing Generator:
+- Best for creating new listing copy quickly.
+- Start here when you have one property and want a draft fast.
+
+Dashboard:
+- Best for managing saved work.
+- Use it to organize, search, edit, restore, and export listings.
+
+AI Studio:
+- Best for advanced decision support.
+- Use it for market review, negotiation prep, batch work, and contract screening.
+
+Portfolio:
+- Best for handling groups of listings.
+- Use it when you need broader visibility across multiple properties.
+
+Settings:
+- Best for setup and maintenance.
+- Use it to manage AI providers, local AI, licensing, updates, and maintenance actions.
+
+Beginner guidance:
+- Start with one listing, not many.
+- Learn the Generator and Dashboard flow first.
+- Review all AI output before sending it to clients.
+- Move into AI Studio only after the basic workflow feels easy.
+
+Important reminder:
+RealtyAI is a work assistant, not a replacement for professional judgment. Always review listing details, negotiation recommendations, and contract-related output before using them in real business activity.
+
+
+==================================================
+19. HELP CENTER / MANUAL TOPICS
+==================================================
+
+Recommended help articles:
+- How to install RealtyAI on Windows
+- First-time setup checklist
+- How to use RealtyAI page-by-page
+- How to activate your license
+- How to choose between local AI and cloud AI
+- How to add and validate API keys
+- How to generate your first listing
+- How to use Dashboard to manage listings
+- How to export a listing PDF
+- How to use AI Studio market snapshot
+- How to use batch listing generation
+- How to use negotiation prep
+- How to use contract risk highlighting
+- How to restore deleted listings
+- How updates work in the desktop app
+- Troubleshooting common setup problems
+
+
+==================================================
+20. ONBOARDING / FIRST-TIME USER COPY
+==================================================
+
+Simple first-run message:
+Welcome to RealtyAI. Start by choosing your AI setup, activating your license, and generating your first listing. Once that is done, use Dashboard to manage your saved work and AI Studio when you need deeper market or deal support.
+
+Simple quick-start checklist:
+1. Activate your license.
+2. Add an API key or set up local AI.
+3. Generate your first listing.
+4. Save it to Dashboard.
+5. Export a PDF or move into AI Studio for deeper work.
+
+
+==================================================
+21. APP STORE / SALES PAGE STYLE SUMMARY
+==================================================
+
+Short product summary:
+RealtyAI is a Windows desktop app for real estate professionals who want faster listing creation, better workflow organization, practical AI assistance, and a more private alternative to large cloud-heavy platforms.
+
+Short value summary:
+It helps users write faster, organize better, prepare smarter, and present more professionally from one desktop workspace.
+
+Suggested benefits list:
+- Faster listing copy creation
+- Cleaner workflow for daily listing tasks
+- Better visibility into saved work
+- Practical market and negotiation support
+- Contract review assistance
+- Local-first desktop experience
+
+
+==================================================
+22. SHORT FAQ COPY
+==================================================
+
+Q: Is RealtyAI a web app?
+A: No. RealtyAI is a Windows desktop app.
+
+Q: Do I need internet?
+A: Some features can work with a local AI setup, but cloud AI, updates, and some licensing actions may require internet access.
+
+Q: Do I need an API key?
+A: If you use cloud AI providers, yes. If you use a supported local AI setup, your workflow may not require a cloud key for those tasks.
+
+Q: Is my data stored online?
+A: RealtyAI is designed as a local-first desktop workflow. Cloud AI requests only go to the provider the user chooses to connect.
+
+Q: Can I use RealtyAI if I am not technical?
+A: Yes. RealtyAI is designed to keep the main workflow simple so users can start with listing generation and learn advanced tools gradually.
+
+Q: Is the contract tool legal advice?
+A: No. It is a review support tool that helps highlight areas for closer attention.
+
+
+==================================================
+23. SUGGESTED PAGE-BY-PAGE WEBSITE OUTLINE
+==================================================
+
+Home Page:
+- Hero headline
+- Hero subheadline
+- Main benefits
+- Core features grid
+- Who it is for
+- Why it is different
+- Call to action
+
+Features Page:
+- Listing Generator
+- Dashboard
+- AI Studio
+- Portfolio
+- PDF Export
+- Settings and AI setup
+
+How to Use RealtyAI Page:
+- First-time setup
+- Recommended first listing workflow
+- What each page is for
+- Beginner best practices
+- Advanced workflow guidance
+
+Security & Privacy Page:
+- Local-first explanation
+- Encrypted API key note
+- Cloud provider choice note
+- User responsibility note
+- Legal review disclaimer
+
+Help Page:
+- First-time setup
+- Getting started
+- Feature guides
+- Troubleshooting links
+
+Contact Page:
+- support@realtyaihq.com
+- business response time
+- optional contact form if you add one later
+
+Buy / Download Page:
+- what the app does
+- who it is for
+- Windows requirement
+- pricing
+- install notes
+- refund / support policy if you define one
+
+
+==================================================
+24. RECOMMENDED POSITIONING LANGUAGE
+==================================================
+
+Use this tone across the website and support pages:
+- practical
+- clear
+- business-focused
+- not overly technical
+- not hype-heavy
+- trust-building
+- privacy-conscious
+- productivity-driven
+
+Words that fit RealtyAI well:
+- faster
+- clearer
+- organized
+- private
+- practical
+- local-first
+- agent-focused
+- efficient
+- professional
+
+Words to avoid overusing:
+- revolutionary
+- magical
+- fully automatic
+- guaranteed
+- perfect
+
+
+==================================================
+25. FINAL MASTER POSITIONING STATEMENT
+==================================================
+
+RealtyAI is a local-first Windows desktop app for real estate agents and small teams who want to create listing copy faster, keep listing work organized, review market activity more clearly, prepare negotiations with more confidence, and export professional materials without getting trapped in a bloated cloud platform.
+
+It is different because it combines real-estate-specific AI help, workflow clarity, privacy-minded design, and practical desktop usability in one focused product built for agents who care about speed, control, and business value.
+
+
+==================================================
+26. SIMPLE VERSION YOU CAN PASTE ANYWHERE
+==================================================
+
+RealtyAI helps real estate agents save time, stay organized, and make faster decisions. It is a Windows desktop app that can generate listing copy, manage listing records, review market snapshots, assist with negotiations, highlight risky contract language, and export polished PDFs. It is built for solo agents and small teams who want practical AI help without another expensive, complicated web platform.

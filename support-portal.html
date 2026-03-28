@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting to RealtyAI Support Portal</title>
+  <meta name="description" content="Redirecting to RealtyAI support portal.">
+  <meta http-equiv="refresh" content="6;url=https://support.realtyaihq.com/portal/en/home">
+  <link rel="icon" href="assets/images/realtyai-icon-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Urbanist:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/config.js"></script>
+  <script>
+    (function () {
+      const cfg = window.REALTYAI_CONFIG || {};
+      const target = cfg.supportPortalUrl || "https://support.realtyaihq.com/portal/en/home";
+      window.addEventListener("DOMContentLoaded", function () {
+        const link = document.getElementById("target");
+        if (link) {
+          link.href = target;
+          link.textContent = target;
+        }
+        setTimeout(function () {
+          window.location.href = target;
+        }, 1200);
+      });
+    })();
+  </script>
+</head>
+<body>
+  <main class="section">
+    <div class="container redirect-box card">
+      <h1>Taking you to the RealtyAI support portal...</h1>
+      <p>If you are not redirected automatically, use this direct link:</p>
+      <p><a class="button primary" id="target" href="https://support.realtyaihq.com/portal/en/home">https://support.realtyaihq.com/portal/en/home</a></p>
+      <p><a class="button ghost" href="support.html">Back to support page</a></p>
+    </div>
+  </main>
+</body>
+</html>
