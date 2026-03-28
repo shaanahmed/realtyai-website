@@ -79,6 +79,24 @@
     el.textContent = config.domain;
   });
 
+  const footerGrid = document.querySelector(".site-footer .footer-grid");
+  if (footerGrid && !footerGrid.querySelector("a[href='privacy.html']")) {
+    const legalGroup = document.createElement("div");
+    legalGroup.className = "footer-links";
+
+    const privacyLink = document.createElement("a");
+    privacyLink.href = "privacy.html";
+    privacyLink.textContent = "Privacy Policy";
+
+    const termsLink = document.createElement("a");
+    termsLink.href = "terms.html";
+    termsLink.textContent = "Terms of Use";
+
+    legalGroup.appendChild(privacyLink);
+    legalGroup.appendChild(termsLink);
+    footerGrid.appendChild(legalGroup);
+  }
+
   const year = document.getElementById("year");
   if (year) {
     year.textContent = String(new Date().getFullYear());
